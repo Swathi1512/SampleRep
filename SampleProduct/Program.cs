@@ -12,6 +12,8 @@ namespace SampleProduct
         public string ProductName { get; set; }
         public int Price { get; set; }
         public int Rating { get; set; }
+
+        //CompareToMethod
         public int CompareTo(Product prod)
         {
             if(this.Price == prod.Price)
